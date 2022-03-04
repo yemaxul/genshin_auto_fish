@@ -6,6 +6,19 @@
 
 其中YOLOX用于鱼的定位和类型的识别以及鱼竿落点的定位。DQN用于自适应控制钓鱼过程的点击，让力度落在最佳区域内。
 
+# 自用直接运行
+切换命令行到本工程所在目录:
+```shell
+D:
+```
+```shell
+cd hayrk\gitcode\genshin_auto_fish
+```
+显卡加速
+```shell
+python fishing.py image -f yolox/exp/yolox_tiny_fish.py -c weights/best_tiny3.pth --conf 0.25 --nms 0.45 --tsize 640 --device gpu
+```
+
 # 安装使用流程
 安装python运行环境（解释器），推荐使用 [anaconda](https://www.anaconda.com/products/individual#Downloads).
 
@@ -31,7 +44,7 @@ git clone https://github.com/7eu7d7/genshin_auto_fish.git
 D:
 ```
 ```shell
-cd haayrk\gitcode\genshin_auto_fish
+cd hayrk\gitcode\genshin_auto_fish
 ```
 执行以下命令安装依赖:
 ```shell
