@@ -29,6 +29,8 @@ git clone https://github.com/7eu7d7/genshin_auto_fish.git
 切换命令行到本工程所在目录:
 ```shell
 D:
+```
+```shell
 cd haayrk\gitcode\genshin_auto_fish
 ```
 执行以下命令安装依赖:
