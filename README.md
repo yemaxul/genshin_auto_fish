@@ -7,12 +7,16 @@
 其中YOLOX用于鱼的定位和类型的识别以及鱼竿落点的定位。DQN用于自适应控制钓鱼过程的点击，让力度落在最佳区域内。
 
 # 自用直接运行
+运行环境
+```shell
+activate ysfish
+```
 切换命令行到本工程所在目录:
 ```shell
 D:
 ```
 ```shell
-cd hayrk\gitcode\genshin_auto_fish
+cd hayark\gitcode\genshin_auto_fish
 ```
 显卡加速
 ```shell
